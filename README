@@ -1,0 +1,5 @@
+Implemented two basic techniques for highlighting a snippet of a text corpus for display on a search results page:
+
+  * First technique uses a "sliding window" technique which produces the shortest length text fragment that contains all (existing) query terms.  Overly long snippets are shortened by naively removing extraneous words
+
+  * Second technique uses a basic density method that returns the snippet with the highest density of query terms, biasing toward a size preference
